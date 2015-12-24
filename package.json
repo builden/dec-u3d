@@ -1,0 +1,29 @@
+{
+  "name": "dec-u3d",
+  "version": "1.0.0",
+  "description": "decompile unity3d res",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/builden/dec-u3d.git"
+  },
+  "keywords": [
+    "unity",
+    "u3d",
+    "disunity"
+  ],
+  "author": "builden",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.0",
+    "fs-extra": "^0.26.3",
+    "glob-all": "^3.0.1",
+    "optimist": "^0.6.1"
+  },
+  "bin": {
+    "dec-u3d": "./cli.js"
+  }
+}
